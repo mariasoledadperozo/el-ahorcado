@@ -1,0 +1,75 @@
+html {
+    font-family: 'Open Sans', Arial;
+    background-color: #e5e0dd;
+}
+
+#boton-reiniciar {
+     
+        width: 8rem; 
+        background-color: #e67655; 
+        color: white;    
+        font-family: 'Open Sans', Arial;
+        padding: 0.50rem; 
+        border-radius: 0.25rem; 
+        border: none; 
+        letter-spacing: 0.25em;
+        font-weight: 600;
+    
+}
+
+#container-principal {
+    width: 33rem;
+    height: 20rem;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 3rem; 
+}
+
+#linea-puntaje {
+    background-color: #fff89c;
+}
+
+#linea-input {
+    display: flex;
+    flex-direction: row;
+    width: 75%; 
+    justify-content: space-around;
+}
+
+.descripcion-principal {
+    width: 65%;
+    color: #736e6c; 
+    line-height: 1.5;
+    text-align: center;
+}
+
+.input-letra {
+    width: 2rem;
+    height: 2rem;
+}
+
+.opcion {
+    width: 8rem; 
+    background-color: #f0d898;
+    color: #423a24;  
+    font-family: 'Open Sans', Arial;
+    padding: 0.50rem; 
+    border-radius: 0.25rem; 
+    border: #736e6c solid 1px;
+    letter-spacing: 0.25em;
+    font-weight: 600;
+}
+
+.titulo-principal {
+    color: #ffff;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    -webkit-text-stroke: 1px #000000;
+    text-align: center;
+}
+

@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ahorcado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    Hola
-    <div class="container">
-        <h2>Prueba</h2>
-    </div>
+
+    <h1 class="titulo-principal">
+        El Ahorcado
+    </h1>
+    <main id="container-principal">
+        <section class="descripcion-principal">
+            Se colocará una palabra al azar donde solo podrás ver su ultima
+            y primera letra, tendrás que adivinarla, tienes un máximo de 6 intentos.
+            Antes de comenzar, elige una categoria:
+        </section>
+        <section class="seleccion-botones">
+            <button class="opcion" onclick="categorias('animales')">ANIMALES</button>
+            <button class="opcion" onclick="categorias('frutas')">FRUTAS</button>
+            <button class="opcion" onclick="categorias('paises')">PAISES</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
